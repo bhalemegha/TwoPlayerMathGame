@@ -1,5 +1,5 @@
 require 'active_support/all'
-
+# player information like name and attempt
 class Player 
   def initialize(name, attempt)
     @name = name
