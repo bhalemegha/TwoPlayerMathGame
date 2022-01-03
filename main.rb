@@ -30,9 +30,9 @@ while player1.attempt > 0 && player2.attempt > 0 do
     game.switch_player()
   else
     if(player1.attempt > player2.attempt)
-      puts "player 1 wins with score of #{player1.attempt}/max"
+      puts "player 1 wins with score of #{player1.attempt}/#{Max}"
     else
-      puts "player 2 wins with score of #{player2.attempt}/max"
+      puts "player 2 wins with score of #{player2.attempt}/#{Max}"
     end
     puts "------Game Over------"
   end
